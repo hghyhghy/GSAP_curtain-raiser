@@ -21,33 +21,33 @@ gsap.from("#box", {
  
 })
 
-// gsap.to("h1", {
-//     x:600,
-//     color:"orange",
-//     duration:2,
-//     delay:1
-// })
-// gsap.to("h2", {
-//     x:600,
-//     color:"black",
-//     duration:2,
-//     delay:3
-// })
-// gsap.to("h3", {
-//     x:600,
-//     color:"salmon",
-//     duration:2,
-//     delay:5
-// })
-// gsap.to("h1",{
-//     x:600,
-//     duration:0.5,
-//     color:"yellow",
-//     stagger:1,
-//     repeat:-1,
-//     yoyo:true
+gsap.to("h1", {
+    x:600,
+    color:"orange",
+    duration:2,
+    delay:1
+})
+gsap.to("h2", {
+    x:600,
+    color:"black",
+    duration:2,
+    delay:3
+})
+gsap.to("h3", {
+    x:600,
+    color:"salmon",
+    duration:2,
+    delay:5
+})
+gsap.to("h1",{
+    x:600,
+    duration:0.5,
+    color:"yellow",
+    stagger:1,
+    repeat:-1,
+    yoyo:true
 
-// })
+})
 
 var time = gsap.timeline()
 
